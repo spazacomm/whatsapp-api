@@ -154,7 +154,7 @@ By setting the `DISABLED_CALLBACKS` environment variable you can specify what ev
 
 In order to validate a new WhatsApp Web instance you need to scan the QR code using your mobile phone. Official documentation can be found at (https://faq.whatsapp.com/1079327266110265/?cms_platform=android) page. The service itself delivers the QR code content as a webhook event or you can use the REST endpoints (`/session/qr/:sessionId` or `/session/qr/:sessionId/image` to get the QR code as a png image). 
 
-## Deploy to Production
+## Deploy to Productio
 
 - Load the docker image in docker-compose, or your Kubernetes environment
 - Disable the `ENABLE_LOCAL_CALLBACK_EXAMPLE` environment variable
